@@ -19,7 +19,7 @@ class CiudadelaTest {
 	void validarFactSolicitudArquitecto() {
 		DatosUtil.resetInstance();
 		SolicitudConstruccion solicitud = new SolicitudConstruccion("1"
-										, TiposConstruccion.Cancha_de_fútbol
+										, TiposConstruccion.Cancha_de_futbol
 										, new BigDecimal(1.0)
 										, new BigDecimal(2.0));
 		ICiudadelaAcciones ciudadelaDelFuturo = new CiudadelaAcciones();
@@ -32,7 +32,7 @@ class CiudadelaTest {
 	void validarFactSolicitudIngeniero() {
 		DatosUtil.resetInstance();
 		SolicitudConstruccion solicitud = new SolicitudConstruccion("1"
-										, TiposConstruccion.Cancha_de_fútbol
+										, TiposConstruccion.Cancha_de_futbol
 										, new BigDecimal(1.0)
 										, new BigDecimal(2.0));
 		ICiudadelaAcciones ciudadelaDelFuturo = new CiudadelaAcciones();
@@ -45,7 +45,7 @@ class CiudadelaTest {
 	void crearSolicitud() {
 		DatosUtil.resetInstance();
 		SolicitudConstruccion solicitud = new SolicitudConstruccion("1"
-										, TiposConstruccion.Cancha_de_fútbol
+										, TiposConstruccion.Cancha_de_futbol
 										, new BigDecimal(1.0)
 										, new BigDecimal(2.0));
 		ICiudadelaAcciones ciudadelaDelFuturo = new CiudadelaAcciones();
@@ -60,7 +60,7 @@ class CiudadelaTest {
 		DatosUtil.resetInstance();
 		System.out.println("Fecha Entrega Ciudadela "+ DatosUtil.getCiudadela().getFechaEntrega() );
 		SolicitudConstruccion solicitud = new SolicitudConstruccion("1"
-										, TiposConstruccion.Cancha_de_fútbol
+										, TiposConstruccion.Cancha_de_futbol
 										, new BigDecimal(1.0)
 										, new BigDecimal(2.0));
 		ICiudadelaAcciones ciudadelaDelFuturo = new CiudadelaAcciones();
@@ -74,7 +74,7 @@ class CiudadelaTest {
 	void consultarConstruccionesPendientes() {
 		DatosUtil.resetInstance();
 		SolicitudConstruccion solicitud = new SolicitudConstruccion("1"
-										, TiposConstruccion.Cancha_de_fútbol
+										, TiposConstruccion.Cancha_de_futbol
 										, new BigDecimal(1.0)
 										, new BigDecimal(2.0));
 		ICiudadelaAcciones ciudadelaDelFuturo = new CiudadelaAcciones();
@@ -100,7 +100,7 @@ class CiudadelaTest {
 		Usuario arquitecto = DatosUtil.consultarUsuarioPorId("1");
 		boolean esFactible;
 		SolicitudConstruccion solicitud = new SolicitudConstruccion("1"
-										, TiposConstruccion.Cancha_de_fútbol
+										, TiposConstruccion.Cancha_de_futbol
 										, new BigDecimal(1.0)
 										, new BigDecimal(2.0));
 		
@@ -131,7 +131,7 @@ class CiudadelaTest {
 		Usuario arquitecto = DatosUtil.consultarUsuarioPorId("1");
 		boolean esFactible;
 		SolicitudConstruccion solicitud = new SolicitudConstruccion("1"
-										, TiposConstruccion.Cancha_de_fútbol
+										, TiposConstruccion.Cancha_de_futbol
 										, new BigDecimal(1.0)
 										, new BigDecimal(2.0));
 		

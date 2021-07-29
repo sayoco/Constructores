@@ -2,7 +2,6 @@ package acciones.interfaces;
 
 import java.sql.Date;
 
-import model.Ciudadela;
 import model.SolicitudConstruccion;
 import model.Usuario;
 

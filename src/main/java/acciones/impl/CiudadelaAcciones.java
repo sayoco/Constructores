@@ -1,13 +1,10 @@
 package acciones.impl;
 
-import java.math.BigDecimal;
 import java.sql.Date;
 
 import acciones.interfaces.ICiudadelaAcciones;
 import dao.impl.CiudadelaDao;
 import dao.interfaces.ICiudadela;
-import model.Ciudadela;
-import model.Material;
 import model.SolicitudConstruccion;
 import model.Usuario;
 

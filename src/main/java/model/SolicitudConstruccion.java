@@ -93,7 +93,7 @@ public class SolicitudConstruccion {
 	    			,new BigDecimal(10)
 	    			,new BigDecimal(20)
 	    			,2);
-	    case  Cancha_de_fútbol:
+	    case  Cancha_de_futbol:
 	    	nuevaConstruccion = new TipoConstruccion(id
 	                ,tipoConst.toString()
 	                ,new BigDecimal(20)

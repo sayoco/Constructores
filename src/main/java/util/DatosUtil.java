@@ -3,14 +3,12 @@ package util;
 import java.math.BigDecimal;
 import java.sql.Date;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
 
 import model.Ciudadela;
 import model.Material;
 import model.Perfil;
 import model.SolicitudConstruccion;
-import model.TipoConstruccion;
 import model.Usuario;
 
 public class DatosUtil {
